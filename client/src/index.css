@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* TradesDash palette (handout Section 7.3). If S5 shares a team theme, use that instead. */
+@theme {
+  --color-navy-900: #14263F;
+  --color-navy-700: #1F3A5F;
+  --color-navy-50:  #E8EEF5;
+  --color-accent:   #E07B20;
+  --color-accent-50:#FDF1E3;
+  --color-page:     #F5F7FA;
+  --color-line:     #D9E0E8;
+  --color-ink:      #1B2430;
+  --color-muted:    #5B6776;
+  --color-success:  #15803D;
+  --color-warning:  #F59E0B;
+  --color-danger:   #B91C1C;
+  --color-info:     #2563EB;
+  --color-whatsapp: #25D366;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-page);
+  color: var(--color-ink);
+}
